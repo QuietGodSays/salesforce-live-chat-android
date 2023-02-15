@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Embedded Live Chat Demo!</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Alerts -->
+    <string name="ok">OK</string>
+    <string name="config_error_prefix">Configuration Error: %1$s</string>
+
+    <string name="launch_chat">Launch Chat</string>
+
+    <!-- Chat Default Config Values -->
+    <string name="pref_chat_org_id_default">00D6F000002JnPw</string>
+    <string name="pref_chat_button_id_default">5736F000000kOPs</string>
+    <string name="pref_chat_deployment_id_default">5726F000000kNrE</string>
+    <string name="pref_chat_la_pod_default">d.la1-c2-hnd.salesforceliveagent.com</string>
+
+    <!-- Chat Settings -->
+    <string name="pref_chat_endpoint_setting_title">Live Agent Settings</string>
+    <string name="pref_chat_la_pod_title">Pod URL</string>
+    <string name="pref_chat_la_pod_summary">The URL for the Live Agent Pod.</string>
+    <string name="pref_chat_org_id_title">Org Id</string>
+    <string name="pref_chat_org_id_summary">The salesforce org id to use</string>
+    <string name="pref_chat_deployment_id_title">Deployment Id</string>
+    <string name="pref_chat_deployment_id_summary">The Deployment id to use</string>
+    <string name="pref_chat_button_id_title">Button Id</string>
+    <string name="pref_chat_button_id_summary">The Chat Button Id to use</string>
+    <string name="chat_availability_change_message">Agent Chat Status: %1$s</string>
+    <string name="pref_chat_prechat_title">Pre Chat Settings</string>
+    <string name="pref_chat_prechat_enabled_title">Pre Chat Enabled?</string>
+    <string name="pref_chatbot_banner_enabled_title">ChatBot Banner Enabled</string>
+    <string name="pref_chatbot_avatar_enabled_title">ChatBot Avatar Enabled</string>
+    <string name="pref_default_to_minimized_enabled_title">Default to Minimized</string>
+
+    <!-- ChatBot -->
+    <string name="chatbot_banner_content_description">ChatBot Banner</string>
+    <string name="chatbot_banner_title">Einstein Bot</string>
+    <string name="chatbot_banner_title_2">Powered by Service Cloud</string>
+    <string name="chatbot_banner_title_3">Snapins &amp; Live Agent Chat</string>
+</resources>
