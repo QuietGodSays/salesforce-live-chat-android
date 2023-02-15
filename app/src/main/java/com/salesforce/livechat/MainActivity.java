@@ -35,11 +35,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
     private AppBarConfiguration appBarConfiguration;
 
-    List<ChatUserData> chatUserData;
-    List<ChatEntity> chatEntities;
+    private List<ChatUserData> chatUserData;
+    private List<ChatEntity> chatEntities;
+
+    private static final String ORG_ID = "Your organization Id";
+    private static final String BUTTON_ID = "Your button Id";
+    private static final String DEPLOYMENT_ID = "Your deployment Id";
+    private static final String LIVE_AGENT_POD = "Your live agent pod";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,8 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Build a configuration object
         ChatConfiguration chatConfiguration =
-                new ChatConfiguration.Builder("00D6F000002JnPw", "5736F000000kOPs",
-                        "5726F000000kNrE", "d.la1-c2-hnd.salesforceliveagent.com")
+                new ChatConfiguration.Builder(ORG_ID, BUTTON_ID, DEPLOYMENT_ID, LIVE_AGENT_POD)
                         .chatUserData(chatUserData)
                         .chatEntities(chatEntities)
                         .build();
